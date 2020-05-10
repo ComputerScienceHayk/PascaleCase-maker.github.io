@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(https://i0.wp.com/see.news/wp-content/uploads/2019/07/Camel.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+    display: grid;
+}
+input {
+    padding-left: 2em;
+}
+.position-center {
+	width: 30em;
+    height: 22em;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+}
+#text {
+	width: 100%;
+    padding: 20px 0 20px 0;
+    align-items: flex-end;
+    background: #80808099;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.button-inner {
+    width: 100%;
+    display: grid;
+}
+.button-inner button{
+    width: 10em;
+    justify-self: flex-end;
+}
+#PascalText {
+ 	width: 100%;
+    background: #ec9538bf;
+    color: white;
+    padding: 20px 0 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+#frstButton {
+    background: #052f05;
+    font-size: 1em;
+    color: #dac138;
+    border: none;
+    border-radius: 5px;
+}
+#scndButton {
+    background: #dac138; 
+    font-size: 1em;
+    color: #052f05;
+    border: none;
+    border-radius: 5px;
+}
